@@ -1,5 +1,3 @@
-include .makerc
-
 run_local:
 	pip3 install --user -r requirements.txt
 	python3 src/manage.py makemigrations

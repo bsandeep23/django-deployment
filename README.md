@@ -10,6 +10,9 @@ This repo consists of resources required for deploying a django application to G
 ```
 # This command installs all required tools on work machine. Assumption ubuntu 16.04
 make setup_local
+# Add current user to docker group
+sudo usermod -aG docker <<user>>
+# reslogin shell
 # Run django on local
 make run_local
 ```
