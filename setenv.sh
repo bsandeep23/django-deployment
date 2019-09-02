@@ -1,0 +1,15 @@
+export DB_NAME="mysite"
+export DB_USER="mysite"
+export DB_PASS="mysite"
+export DB_HOST="db_ip"
+export DB_PORT="5432"
+export DJANGO_SECRET="secret"
+export GCP_PROJECT_NAME="gcp-project-name"
+export KUBE_NAMESPACE="mysite"
+export APP_NAME="mysite"
+export DB_PASS_BASE64=$(echo -n ${DB_PASS} | base64)
+export DB_USER_BASE64=$(echo -n ${DB_USER} | base64)
+export DB_HOST_BASE64=$(echo -n ${DB_HOST} | base64)
+export DB_PORT_BASE64=$(echo -n ${DB_PORT} | base64)
+export DJANGO_SECRET_BASE64=$(echo -n ${DJANGO_SECRET} | base64)
+export DB_NAME_BASE64=$(echo -n ${DB_NAME} | base64)
