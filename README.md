@@ -57,3 +57,6 @@ make TAG="latest" push_image
 # deploy
 make TAG="latest" deploy
 ```
+
+## Summary 
+Writeup can be found [here](https://github.com/bsandeep23/django-deployment/blob/master/WIKI.md "Wiki link")
